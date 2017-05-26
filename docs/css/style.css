@@ -1,0 +1,40 @@
+html, body {
+    background-color: darkslategrey;
+    font-family: 'VT323' ;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-image: url('../images/tech.png');
+    background-size: cover;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    width:200px;
+    color:white;
+    left:calc(50% - 100px);
+    text-align: center;
+    padding:20px;
+}
+
+clock {
+    left:calc(50% - 300px);
+    top:calc(50% - 100px);
+    width:600px; height:200px;
+    padding:20px;
+    font-weight: bold;
+    font-size:130px;
+    text-align: center;
+    background-color: rgba(0,10,40,0.6);
+    color: aquamarine;
+    border-radius: 15px;
+    overflow: hidden;
+    border:3px solid aquamarine;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.5);
+}
