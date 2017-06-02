@@ -22,6 +22,7 @@ var Clock = (function () {
 var Game = (function () {
     function Game() {
         this.clock = new Clock();
+        this.clock = undefined;
     }
     return Game;
 }());

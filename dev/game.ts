@@ -6,6 +6,7 @@ class Game {
      
     constructor() {
         this.clock = new Clock();
+        this.clock = undefined;
     }
 } 
 
